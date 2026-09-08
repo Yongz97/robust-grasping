@@ -1,0 +1,13 @@
+# Exact environment used for the recorded pilot on Apple Silicon / Python 3.12.
+# For other Python versions use the compatible ranges in pyproject.toml instead.
+pybullet==3.2.7
+numpy==2.5.3
+opencv-python-headless==5.0.0.93
+ImageIO==2.37.4
+imageio-ffmpeg==0.6.0
+pillow==12.3.0
+pytest==9.1.1
+iniconfig==2.3.0
+packaging==26.3
+pluggy==1.6.0
+Pygments==2.21.0

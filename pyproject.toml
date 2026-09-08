@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robust-grasping"
+version = "0.1.0"
+description = "Camera-driven Panda manipulation with visual grasp verification and recovery"
+requires-python = ">=3.10"
+dependencies = [
+  "pybullet==3.2.7", "numpy>=1.26,<3", "opencv-python-headless>=4.9,<6",
+  "imageio>=2.34,<3", "imageio-ffmpeg>=0.5,<1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+grasp-demo = "graspbench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["graspbench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

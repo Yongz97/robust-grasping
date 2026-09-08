@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "python": "3.12.6",
+    "platform": "macOS-26.4-arm64-arm-64bit",
+    "packages": {
+      "pybullet": "3.2.7",
+      "numpy": "2.5.3",
+      "opencv-python-headless": "5.0.0.93"
+    },
+    "seed_start": 0,
+    "episodes_per_condition": 10
+  },
+  "groups": [
+    {
+      "scenario": "clean",
+      "policy": "one_attempt",
+      "episodes": 10,
+      "successes": 10,
+      "success_rate": 1.0,
+      "success_ci95": [
+        0.7224598312333834,
+        1.0
+      ],
+      "mean_attempts": 1.0,
+      "mean_sim_seconds": 11.75,
+      "mean_localization_error_mm": 4.322724548006159,
+      "visual_false_positives": 0,
+      "visual_false_negatives": 0
+    },
+    {
+      "scenario": "clean",
+      "policy": "recovery",
+      "episodes": 10,
+      "successes": 10,
+      "success_rate": 1.0,
+      "success_ci95": [
+        0.7224598312333834,
+        1.0
+      ],
+      "mean_attempts": 1.0,
+      "mean_sim_seconds": 11.75,
+      "mean_localization_error_mm": 4.322724548006159,
+      "visual_false_positives": 0,
+      "visual_false_negatives": 0
+    },
+    {
+      "scenario": "noise_6mm",
+      "policy": "one_attempt",
+      "episodes": 10,
+      "successes": 10,
+      "success_rate": 1.0,
+      "success_ci95": [
+        0.7224598312333834,
+        1.0
+      ],
+      "mean_attempts": 1.0,
+      "mean_sim_seconds": 11.75,
+      "mean_localization_error_mm": 4.322724548006159,
+      "visual_false_positives": 0,
+      "visual_false_negatives": 0
+    },
+    {
+      "scenario": "noise_6mm",
+      "policy": "recovery",
+      "episodes": 10,
+      "successes": 10,
+      "success_rate": 1.0,
+      "success_ci95": [
+        0.7224598312333834,
+        1.0
+      ],
+      "mean_attempts": 1.0,
+      "mean_sim_seconds": 11.75,
+      "mean_localization_error_mm": 4.322724548006159,
+      "visual_false_positives": 0,
+      "visual_false_negatives": 0
+    },
+    {
+      "scenario": "noise_16mm",
+      "policy": "one_attempt",
+      "episodes": 10,
+      "successes": 9,
+      "success_rate": 0.9,
+      "success_ci95": [
+        0.5958436145024278,
+        0.9821242504842788
+      ],
+      "mean_attempts": 1.0,
+      "mean_sim_seconds": 11.72,
+      "mean_localization_error_mm": 4.322724548006159,
+      "visual_false_positives": 0,
+      "visual_false_negatives": 1
+    },
+    {
+      "scenario": "noise_16mm",
+      "policy": "recovery",
+      "episodes": 10,
+      "successes": 10,
+      "success_rate": 1.0,
+      "success_ci95": [
+        0.7224598312333834,
+        1.0
+      ],
+      "mean_attempts": 1.3,
+      "mean_sim_seconds": 14.502500000000001,
+      "mean_localization_error_mm": 4.322724548006159,
+      "visual_false_positives": 0,
+      "visual_false_negatives": 0
+    },
+    {
+      "scenario": "forced_first_miss",
+      "policy": "one_attempt",
+      "episodes": 10,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_ci95": [
+        0.0,
+        0.2775401687666166
+      ],
+      "mean_attempts": 1.0,
+      "mean_sim_seconds": 9.95,
+      "mean_localization_error_mm": 4.322724548006159,
+      "visual_false_positives": 0,
+      "visual_false_negatives": 0
+    },
+    {
+      "scenario": "forced_first_miss",
+      "policy": "recovery",
+      "episodes": 10,
+      "successes": 10,
+      "success_rate": 1.0,
+      "success_ci95": [
+        0.7224598312333834,
+        1.0
+      ],
+      "mean_attempts": 2.0,
+      "mean_sim_seconds": 19.824999999999996,
+      "mean_localization_error_mm": 4.322724548006159,
+      "visual_false_positives": 0,
+      "visual_false_negatives": 0
+    }
+  ]
+}

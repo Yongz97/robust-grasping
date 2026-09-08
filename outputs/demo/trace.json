@@ -1,0 +1,154 @@
+{
+  "seed": 7,
+  "visual_success": true,
+  "attempts": 2,
+  "events": [
+    {
+      "state": "OBSERVE",
+      "sim_time": 1.375
+    },
+    {
+      "state": "INJECTED_POSITION_ERROR",
+      "sim_time": 1.375,
+      "offset_m": [
+        0,
+        0.075,
+        0
+      ]
+    },
+    {
+      "state": "APPROACH",
+      "sim_time": 1.375,
+      "estimated_center": [
+        0.5277544382012707,
+        0.11559349248839595,
+        0.021331617116927607
+      ],
+      "target": [
+        0.5277544382012707,
+        0.19059349248839597,
+        0.026331617116927608
+      ],
+      "yaw": 0.0
+    },
+    {
+      "state": "DESCEND",
+      "sim_time": 2.75
+    },
+    {
+      "state": "CLOSE_FINGERS",
+      "sim_time": 3.75
+    },
+    {
+      "state": "LIFT",
+      "sim_time": 4.375
+    },
+    {
+      "state": "VERIFY_LIFT",
+      "sim_time": 5.575
+    },
+    {
+      "state": "LIFT_NOT_CONFIRMED",
+      "sim_time": 5.575
+    },
+    {
+      "state": "RECOVER",
+      "sim_time": 5.575
+    },
+    {
+      "state": "OBSERVE",
+      "sim_time": 9.45
+    },
+    {
+      "state": "APPROACH",
+      "sim_time": 9.45,
+      "estimated_center": [
+        0.5253797334140027,
+        0.07559155893297986,
+        0.021303255792048743
+      ],
+      "target": [
+        0.5253797334140027,
+        0.07559155893297986,
+        0.026303255792048744
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "state": "DESCEND",
+      "sim_time": 10.825
+    },
+    {
+      "state": "CLOSE_FINGERS",
+      "sim_time": 11.825
+    },
+    {
+      "state": "LIFT",
+      "sim_time": 12.45
+    },
+    {
+      "state": "VERIFY_LIFT",
+      "sim_time": 13.65
+    },
+    {
+      "state": "LIFT_CONFIRMED",
+      "sim_time": 13.95
+    },
+    {
+      "state": "TRANSPORT",
+      "sim_time": 13.95
+    },
+    {
+      "state": "PLACE",
+      "sim_time": 15.35
+    },
+    {
+      "state": "SUCCESS",
+      "sim_time": 19.325
+    }
+  ],
+  "initial_estimate": [
+    0.5277544382012707,
+    0.11559349248839595,
+    0.021331617116927607
+  ],
+  "config": {
+    "max_attempts": 3,
+    "localization_noise": 0,
+    "first_miss": true
+  },
+  "success": true,
+  "initial_localization_error_m": 0.004233758196398034,
+  "initial_state": {
+    "position": [
+      0.5237480222165232,
+      0.11532925872801857,
+      0.019988665165961324
+    ],
+    "orientation": [
+      3.477926288010391e-05,
+      -2.353166348140252e-05,
+      0.761774626494573,
+      0.6478421232566757
+    ],
+    "speed": 1.2290148027768866e-05,
+    "angular_speed": 6.44700650243323e-05
+  },
+  "final_state": {
+    "position": [
+      0.500197707632373,
+      -0.23147868064416569,
+      0.019988601100318665
+    ],
+    "orientation": [
+      -0.5138022965431647,
+      0.48580087101353164,
+      0.5138496008650125,
+      0.4857605392375252
+    ],
+    "speed": 1.2312280334915744e-05,
+    "angular_speed": 0.0001981513506252654
+  },
+  "sim_seconds": 19.825,
+  "wall_seconds": 85.262
+}
